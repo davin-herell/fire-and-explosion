@@ -5,10 +5,10 @@ using UnityEngine;
 public class Explodable : MonoBehaviour
 {
     public GameObject destroyedVersion;
-    public float delay = 3f;
+    public GameObject explosionEffect;
+    public float delay = 1f;
     public float blastRadius = 5f;
     public float explosionForce = 700f;
-    public GameObject explosionEffect;
     float countDown;
     bool startExplosion = false;
     bool hasExploded = false;
